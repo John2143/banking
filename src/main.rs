@@ -27,7 +27,7 @@ pub struct Config {
     #[clap(
         long,
         env,
-        default_value = "postgres://postgres@localhost:5432/openfrontpro"
+        default_value = "postgres://postgres@localhost:5432/stasher"
     )]
     pub database_url: String,
 
